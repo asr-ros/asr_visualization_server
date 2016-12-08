@@ -21,7 +21,7 @@ find_package(catkin REQUIRED COMPONENTS
 	roscpp
 	std_msgs
 	message_generation
-        rapidxml
+        asr_rapidxml
         roslib
 )
 
@@ -39,7 +39,7 @@ generate_messages(
 
 catkin_package(
 	INCLUDE_DIRS include
-        CATKIN_DEPENDS roscpp std_msgs rapidxml roslib
+        CATKIN_DEPENDS roscpp std_msgs asr_rapidxml roslib
         DEPENDS
 )
 
