@@ -1,0 +1,6 @@
+dome_config_path: ./config/markers_dome.xml
+mild_config_path: ./config/markers_mild.xml
+output_topic: /room_model
+publish_rate: 0.5
+marker_lifetime: 2.0
+

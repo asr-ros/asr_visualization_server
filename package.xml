@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<package>
+	<name>asr_visualization_server</name>
+	<version>1.0.0</version>
+	<description>This package is used for the visualization of the models in the dome/mild environment</description>
+	<author>Allgeyer Tobias, Braun Kai, Heller Florian, Mehlhaus Jonas, Meißner Pascal, Qattan Mohamad, Wittenbeck Valerij</author>
+	<maintainer email="pascal.meissner@posteo.de">Meißner Pascal</maintainer>
+	<license>BSD</license>
+	
+	<buildtool_depend>catkin</buildtool_depend>
+	<build_depend>roscpp</build_depend>
+	<build_depend>Boost</build_depend>
+	<build_depend>cmake_modules</build_depend>
+	<build_depend>std_msgs</build_depend>
+	<build_depend>message_generation</build_depend>
+        <build_depend>rapidxml</build_depend>
+        <build_depend>roslib</build_depend>
+
+	<run_depend>cmake_modules</run_depend>
+	<run_depend>roscpp</run_depend>
+	<run_depend>Boost</run_depend>
+	<run_depend>std_msgs</run_depend>
+	<run_depend>message_runtime</run_depend>
+        <run_depend>rapidxml</run_depend>
+        <run_depend>roslib</run_depend>
+</package>
