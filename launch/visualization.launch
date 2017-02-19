@@ -1,7 +1,7 @@
 <launch>
-	<env name="ROSCONSOLE_CONFIG_FILE" value="$(find visualization_server)/log/rosconsole.config"/>
-  	<node name="visualization" pkg="visualization_server" type="visualization" output="screen">
-		<rosparam file="$(find visualization_server)/launch/visualization_params.yaml" />
+	<env name="ROSCONSOLE_CONFIG_FILE" value="$(find asr_visualization_server)/log/rosconsole.config"/>
+  	<node name="visualization" pkg="asr_visualization_server" type="visualization" output="screen">
+		<rosparam file="$(find asr_visualization_server)/launch/visualization_params.yaml" />
   	</node>
 
 </launch>

@@ -4,7 +4,7 @@
 	<version>1.0.0</version>
 	<description>This package is used for the visualization of the models in the dome/mild environment</description>
 	<author>Allgeyer Tobias, Braun Kai, Heller Florian, Mehlhaus Jonas, Meißner Pascal, Qattan Mohamad, Wittenbeck Valerij</author>
-	<maintainer email="pascal.meissner@posteo.de">Meißner Pascal</maintainer>
+	<maintainer email="asr-ros@lists.kit.edu">Meißner Pascal</maintainer>
 	<license>BSD</license>
 	
 	<buildtool_depend>catkin</buildtool_depend>

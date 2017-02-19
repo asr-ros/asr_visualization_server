@@ -19,19 +19,21 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 #define ENVIRONMENT_VISUALIZER_H
 
 #include <ros/ros.h>
-#include <visualization_server/DrawAllModelsDome.h>
-#include <visualization_server/DrawAllModelsMild.h>
-#include <visualization_server/ClearAllModels.h>
-#include <visualization_server/DrawModelDome.h>
-#include <visualization_server/DrawModelMild.h>
-#include <visualization_server/ClearModelDome.h>
-#include <visualization_server/ClearModelMild.h>
-#include <visualization_server/ShowAvailableModels.h>
+#include <asr_visualization_server/DrawAllModelsDome.h>
+#include <asr_visualization_server/DrawAllModelsMild.h>
+#include <asr_visualization_server/ClearAllModels.h>
+#include <asr_visualization_server/DrawModelDome.h>
+#include <asr_visualization_server/DrawModelMild.h>
+#include <asr_visualization_server/ClearModelDome.h>
+#include <asr_visualization_server/ClearModelMild.h>
+#include <asr_visualization_server/ShowAvailableModels.h>
 
 #include "marker_helper.h"
 
 
 namespace visualization_server {
+
+using namespace asr_visualization_server;
 
 /** The name of this package **/
 const static std::string NODE_NAME("visualization");

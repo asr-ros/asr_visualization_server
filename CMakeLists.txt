@@ -26,6 +26,8 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 
+
+
 add_service_files(
    DIRECTORY srv
    FILES DrawAllModelsDome.srv DrawAllModelsMild.srv ClearAllModels.srv DrawModelDome.srv DrawModelMild.srv
@@ -59,7 +61,7 @@ add_executable(visualization src/environment_visualizer.cpp
                                       ${LIBFILES})
 
 add_dependencies(visualization
-        visualization_server_generate_messages_cpp
+        asr_visualization_server_generate_messages_cpp
 )
 
 TARGET_LINK_LIBRARIES(visualization

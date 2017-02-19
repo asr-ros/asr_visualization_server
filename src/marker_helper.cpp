@@ -49,7 +49,7 @@ visualization_msgs::MarkerArray MarkerHelper::parseXmlFile(std::string xml_path)
 
     std::string abs_xml_path;
     if (boost::starts_with(xml_path, ".")) {
-        abs_xml_path = ros::package::getPath("visualization_server") + xml_path.substr(1);
+        abs_xml_path = ros::package::getPath("asr_visualization_server") + xml_path.substr(1);
     }
     else {
         abs_xml_path = xml_path;
