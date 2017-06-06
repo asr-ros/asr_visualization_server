@@ -6,6 +6,7 @@
 	<author>Allgeyer Tobias, Braun Kai, Heller Florian, Mehlhaus Jonas, Meißner Pascal, Qattan Mohamad, Wittenbeck Valerij</author>
 	<maintainer email="asr-ros@lists.kit.edu">Meißner Pascal</maintainer>
 	<license>BSD</license>
+	<url type="website">http://ros.org/wiki/asr_visualization_server</url>
 	
 	<buildtool_depend>catkin</buildtool_depend>
 	<build_depend>roscpp</build_depend>
